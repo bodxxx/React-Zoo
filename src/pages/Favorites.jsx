@@ -28,12 +28,12 @@ function Favorites({addToFavorite}) {
                 </div>
             ) : (
                 <div className="emptyFavorites">
-                    <img src="/img/sad-face.png" alt="Sad emoji"/>
+                    <img src="img/sad-face.png" alt="Sad emoji"/>
                     <h3>У вас ще нічого немає у списку бажань</h3>
                     <p>
                         Саме час додати перший товар
                     </p>
-                    <Link to="/">
+                    <Link to="">
                         <button>Повернутися назад</button>
                     </Link>
                 </div>

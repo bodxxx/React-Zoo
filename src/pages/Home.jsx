@@ -19,7 +19,7 @@ function Home({searchValue, items, onChangeSearchInput, onAddToCart, addToFavori
             <div className="section-heading">
             <h2>{searchValue ? `Пошук: "${searchValue}"` : 'Всі товари'}</h2>
             <div className="search-block">
-                <img src="/img/search.svg" alt="Search"/>
+                <img src="img/search.svg" alt="Search"/>
                 <input onChange={onChangeSearchInput} placeholder="Пошук..."/>
             </div>
             </div>

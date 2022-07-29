@@ -34,7 +34,7 @@ function Cart({onCloseCart, onRemove, items =[], opened}) {
             <div className={styles.cart}>
                 <h2>
                     Кошик
-                    <img src="/img/btn-remove.svg" alt="Close" className={styles.removeBtn} onClick={onCloseCart}/>
+                    <img src="img/btn-remove.svg" alt="Close" className={styles.removeBtn} onClick={onCloseCart}/>
                 </h2>
                 {items.length > 0 ? (
                 <div className={styles.itemsWrapper}>
@@ -46,7 +46,7 @@ function Cart({onCloseCart, onRemove, items =[], opened}) {
                                 <p>{obj.title}</p>
                                 <b>{obj.price} грн.</b>
                             </div>
-                            <img onClick={() => {onRemove(obj.id)}} src="/img/btn-remove.svg" alt="Remove" className={styles.removeBtn}/>
+                            <img onClick={() => {onRemove(obj.id)}} src="img/btn-remove.svg" alt="Remove" className={styles.removeBtn}/>
                         </div>
                         ))}
                     </div>

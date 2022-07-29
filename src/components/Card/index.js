@@ -10,7 +10,6 @@ function Card({
     title, 
     price, 
     favorited = false, 
-    // inCart = false, 
     loading = false}) {
     const {addedToCart} = React.useContext(AppContext);
     const [favorite, setFavorite] = React.useState(favorited);
@@ -41,7 +40,7 @@ function Card({
             </ContentLoader> : 
             <>
             <div className={styles.favorite} onClick={onClickFav}>
-              {addToFav && (<img src={favorite ? "/img/heart-liked.svg" : "/img/heart-unliked.svg"} alt="Unliked"/>)}
+              {addToFav && (<img src={favorite ? "img/heart-liked.svg" : "img/heart-unliked.svg"} alt="Unliked"/>)}
             </div>
             <img width={133} height={135} src={imgUrl} alt="Purina"/>
             <p>{title} </p>
@@ -51,7 +50,7 @@ function Card({
                     <b>{price} грн.</b>
                 </div>
                 <button onClick={onClickPlus}>
-                    {addToCart && (<img src={addedToCart(id) ? "/img/btn-checked.svg" : "/img/btn.svg"} alt="add to cart"/>)}
+                    {addToCart && (<img src={addedToCart(id) ? "img/btn-checked.svg" : "img/btn.svg"} alt="add to cart"/>)}
                 </button>
             </div>
             </>

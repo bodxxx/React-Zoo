@@ -39,12 +39,12 @@ function Orders() {
                 </div>
             ) : (
                 <div className="emptyFavorites">
-                    <img src="/img/sad-face.png" alt="Sad emoji"/>
+                    <img src="img/sad-face.png" alt="Sad emoji"/>
                     <h3>У вас немає замовлень</h3>
                     <p>
                         Це потрібно скоріше виправити, повертайтеся до магазину і замовте товар для свого пухнастого друга!
                     </p>
-                    <Link to="/">
+                    <Link to="">
                         <button>Повернутися назад</button>
                     </Link>
                 </div>
