@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-Zoo/static/css/main.2786040b.css",
-    "main.js": "/React-Zoo/static/js/main.460fe1b5.js",
+    "main.js": "/React-Zoo/static/js/main.1d892576.js",
     "index.html": "/React-Zoo/index.html",
     "static/media/arrow-right.svg": "/React-Zoo/static/media/arrow-right.fc3222511ec5a224a4ab.svg",
     "main.2786040b.css.map": "/React-Zoo/static/css/main.2786040b.css.map",
-    "main.460fe1b5.js.map": "/React-Zoo/static/js/main.460fe1b5.js.map"
+    "main.1d892576.js.map": "/React-Zoo/static/js/main.1d892576.js.map"
   },
   "entrypoints": [
     "static/css/main.2786040b.css",
-    "static/js/main.460fe1b5.js"
+    "static/js/main.1d892576.js"
   ]
 }
