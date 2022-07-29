@@ -98,7 +98,7 @@ function App() {
         />
         <Offer/>
         <Routes>
-          <Route path="" element={<Home searchValue={searchValue}
+          <Route path="/React-Zoo" element={<Home searchValue={searchValue}
                 items={items}
                 onChangeSearchInput={onChangeSearchInput}
                 onAddToCart={onAddToCart}
@@ -106,8 +106,8 @@ function App() {
                 cartItems={cartItems}
                 isLoading={isLoading}
             />} exact/>
-          <Route path="favorites" element={<Favorites addToFavorite={addToFavorite}/>}/>
-          <Route path="orders" element={<Orders/>}/>
+          <Route path="/favorites" element={<Favorites addToFavorite={addToFavorite}/>}/>
+          <Route path="/orders" element={<Orders/>}/>
         </Routes>
       </div>
     </AppContext.Provider>
