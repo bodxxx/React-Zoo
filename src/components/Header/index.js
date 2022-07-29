@@ -7,7 +7,7 @@ function Header(props) {
     const totalPrice = cartItems.reduce((sum, obj) => obj.price + sum, 0);
     return (
         <header className={styles.header}>
-            <Link to="/React-Zoo">
+            <Link to="/React-Zoo/">
                 <div className={styles.headerLeft}>
                     <img src="img/logo.png" width={40} height={40} alt="" className={styles.logo}/>
                     <div>

@@ -33,7 +33,7 @@ function Favorites({addToFavorite}) {
                     <p>
                         Саме час додати перший товар
                     </p>
-                    <Link to="/React-Zoo">
+                    <Link to="/React-Zoo/">
                         <button>Повернутися назад</button>
                     </Link>
                 </div>
