@@ -1,0 +1,54 @@
+.card {
+    border: 1px solid #F3F3F3;
+    border-radius: 40px;
+    padding: 40px 35px 30px;
+    max-width: 210px;
+    width: 100%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    transition: all .3s ease-in-out;
+    position: relative;
+    &:hover {
+      box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
+      transform: translateY(-5px);
+    }
+    .favorite {
+      position: absolute;
+      cursor: pointer;
+      top: 20px;
+      left: 15px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      margin-top: 14px;
+      height: 40px;
+    }
+    .cardBottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      div {
+        display: flex;
+        flex-direction: column;
+        span {
+          font-weight: 500;
+          font-size: 11px;
+          line-height: 13px;
+          text-transform: uppercase;
+          color: #BDBDBD;
+          margin-bottom: 5px;
+        }
+        b {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 17px;
+        }
+      }
+      button {
+        background: transparent;
+        cursor: pointer;
+      }
+    }
+}

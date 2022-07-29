@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #E7F6FF;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+}
+button:focus,
+input:focus {
+  outline: none;
+}
+ul, li {
+  display: block;
+}
+.wrapper {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  max-width: 1080px;
+  margin: 85px auto 0;
+  padding: 40px 0;
+}
+.content {
+  padding: 40px 60px;
+  .section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h2 {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      color: #000000;
+    }
+    .search-block {
+      border: 1px solid #F3F3F3;
+      border-radius: 10px;
+      display: flex;
+      padding: 0 15px;
+      input {
+        border: 0;
+        padding: 13px;
+        font-size: 16px;
+        width: 200px;
+      }
+    }
+  }
+  .totalOrdersPrice {
+    margin-top: 8px;
+    margin-bottom: 40px;
+    color: #a9a9a9;
+    span {
+      font-weight: 700;
+      color: #000;
+    }
+  }
+}
+.products {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.emptyFavorites {
+  text-align: center;
+  padding-top: 100px;
+  h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.4;
+    margin: 11px auto 0;
+    max-width: 400px;
+  }
+  button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #9DD558;
+    border-radius: 18px;
+    width: 100%;
+    cursor: pointer;
+    padding: 18px 0;
+    transition: all .5s ease;
+    margin-top: 25px;
+    position: relative;
+    max-width: 260px;
+    &:hover {
+        background: #86b24a;
+    }
+  }
+}
