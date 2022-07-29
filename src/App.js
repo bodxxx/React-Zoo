@@ -106,8 +106,8 @@ function App() {
                 cartItems={cartItems}
                 isLoading={isLoading}
             />} exact/>
-          <Route path="/favorites" element={<Favorites addToFavorite={addToFavorite}/>}/>
-          <Route path="/orders" element={<Orders/>}/>
+          <Route path="/React-Zoo/favorites" element={<Favorites addToFavorite={addToFavorite}/>}/>
+          <Route path="/React-Zoo/orders" element={<Orders/>}/>
         </Routes>
       </div>
     </AppContext.Provider>
